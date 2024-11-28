@@ -12,7 +12,8 @@ library(openxlsx)
 
 # Read data --------------------------------------------------------------------
 # data_in <- readr::read_csv("data-raw/dataset.csv")
-# codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
+data_in<-read_excel("data-raw/Stormwater_Manholes_5322398098200526499.xlsx")
+vi# codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
 #  clean_names()
 
 # Tidy data --------------------------------------------------------------------
